@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/Debug/EtherNet.elf",
+            "name": "C/C++: arm-none-eabi-gcc Debug with OpenOCD",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "configFiles": [
+                "/usr/share/openocd/scripts/interface/cmsis-dap.cfg",
+                "/usr/share/openocd/scripts/target/stm32f4x.cfg"
+            ],
+            "searchDir": [],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "raw"
+        }
+            
+    ],
+
+}

@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "freertos.h": "c",
+        "task.h": "c",
+        "cmsis_os.h": "c",
+        "lwip.h": "c",
+        "rcl.h": "c",
+        "error_handling.h": "c",
+        "rclc.h": "c",
+        "executor.h": "c",
+        "transport.h": "c",
+        "config.h": "c",
+        "ethernetif.h": "c",
+        "random": "c",
+        "int32.h": "c",
+        "point_cloud2.h": "c",
+        "point_cloud2__struct.h": "c",
+        "point_field__struct.h": "c",
+        "header__struct.h": "c",
+        "main.h": "c",
+        "stdint.h": "c",
+        "mem.h": "c",
+        "opt.h": "c"
+    }
+}
